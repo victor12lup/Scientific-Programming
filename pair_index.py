@@ -17,9 +17,7 @@ def show_search_results(line_numbers):
     pass
 
 
-###############
-# Assignment 3
-###############
+
 
 def build_pair_index(filename, stopwords, recency_size=5):
     # Assignment 3A
