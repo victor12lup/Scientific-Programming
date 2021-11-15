@@ -1,8 +1,6 @@
 import sys, string
 
-##############
-# Assignment 1
-##############
+
 
 def read_stopwords():
     with open("stopwords.txt") as f:
@@ -15,9 +13,6 @@ def filter_word(word, stopwords):
     pass
 
 
-##############
-# Assignment 2
-##############
 
 def build_index(filename, stopwords):
     # Assignment 2A
